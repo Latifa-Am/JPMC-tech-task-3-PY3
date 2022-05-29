@@ -21,7 +21,7 @@ class Graph extends Component<IProps, {}> {
   componentDidMount() {
     // Get element from the DOM.
     const elem = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
-    //Ading the ration field to track ratios of two stocks, also lower/upper bounds
+    //Adding the ratio field to track ratios of two stocks, also lower/upper bounds
     const schema = {
       price_abc: 'float',
       price_def: 'float',
